@@ -1,0 +1,242 @@
+body{
+    margin: 0;
+    background-image: url(1651165083_41-phonoteka-org-p-oboi-var-tander-krasivo-49.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+.nav-item:hover{
+    color: chocolate;
+    transition: .3s;
+}
+
+.nav-item {
+    font-family: 'Oswald', sans-serif;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 5px;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 23px;
+    margin-right: 70px;
+    font-weight: bold;
+    height: 40px;
+}
+
+.name{
+    margin-left: 10px;
+    height: 0px;
+    font-size: 35px;
+    color: white;
+    font-family: 'Teko', sans-serif;
+    text-align: center;
+    width: 250px;
+    line-height: 30px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 61%;
+    max-width: 526px;
+    margin-left: 695px;
+}
+.clip{
+    display: flex;
+    height: 100px;
+}
+
+.bk{
+    display: flex;
+    margin-top: 42px;
+}
+
+.tabtext{
+    font-size: 20px;
+    color: #ffffff;
+    background-color: rgba(68, 14, 2, 0.24);
+}
+
+.bk2{
+    background-color:rgba(68, 14, 2, 0.24);
+}
+
+.snaryad{
+    font-family: 'Oswald', sans-serif;
+    margin-top: 70px;
+    color: white;
+    display: flex;
+    margin-left: 780px;
+    font-size: 35px;
+}
+.block{
+    position:relative;
+}
+.hidden {
+    display: none;
+    position: absolute;
+    width: 400px;
+    bottom: 100%;
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0.63);
+    color: #ffffff;
+    padding: 5px;
+    text-align: center;
+    font-size: 20px;
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(6px);
+}
+.hover + .hidden:before {
+    content: " ";
+    position: absolute;
+    top: 98%;
+    left: 10%;
+    margin-left: -5px;
+    height: 0;
+    width: 0;
+    z-index: 2;
+}
+.hover + .hidden:after {
+    content: " ";
+    position: absolute;
+    top: 100%;
+    left: 10%;
+    margin-left: -5px;
+    height: 0;
+    width: 0;
+    z-index: 1;
+}
+.hover:hover + .hidden {
+    display: block;
+    border: #2a0696 2px solid;
+    border-radius: 5px;
+}
+.wikiname{
+    position: absolute;
+    top: 12%;
+    left: 12%;
+    color: white;
+}
+.wikitext{
+    position: absolute;
+    display: flex;
+    width: 500px;
+    top: 18%;
+    left: 4%;
+}
+
+.wiki{
+    backdrop-filter: blur(10px);
+    border: 3px solid rgba(159, 1, 1, 0.41);
+    background-color: rgba(0, 0, 0, 0.29);
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    display: flex;
+    color: white;
+    font-size: 20px;
+    width: 500px;
+}
+ .wikigame{
+     font-family: 'Oswald', sans-serif;
+     position: absolute;
+     display: flex;
+     color: white;
+     top: 85%;
+     left: 33%;
+ }
+.game{
+    font-family: 'Oswald', sans-serif;
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(10px);
+    border: 3px solid rgba(159, 1, 1, 0.41);
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    display: flex;
+    top: 110%;
+    color: white;
+    font-size: 20px;
+}
+.tnames{
+    position: absolute;
+    left: 285%;
+    bottom: 110%;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+}
+.usa{
+    position: absolute;
+    bottom: 95%;
+    left: 250%;
+}
+.tehnic{
+    position: absolute;
+    top: 5%;
+    left: 250%;
+}
+.blockt{
+    position:relative;
+}
+.hiddent {
+    display: none;
+    position: absolute;
+    width: 400px;
+    right: 100%;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.63);
+    color: #ffffff;
+    padding: 5px;
+    text-align: center;
+    font-size: 20px;
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(6px);
+}
+.hovert + .hiddent:before {
+    content: " ";
+    position: absolute;
+    top: 98%;
+    left: 10%;
+    margin-left: -5px;
+    height: 0;
+    width: 0;
+    z-index: 2;
+}
+.hovert + .hiddent:after {
+    content: " ";
+    position: absolute;
+    top: 100%;
+    left: 10%;
+    margin-left: -5px;
+    height: 0;
+    width: 0;
+    z-index: 1;
+}
+.hovert:hover+ .hiddent {
+    display: block;
+    border: rgba(190, 0, 22, 0.54) 2px solid;
+    border-radius: 5px;
+}
+.tank{
+    border: rgba(26, 1, 93, 0.82) 3px solid;
+}
+.sssr{
+    position: absolute;
+    left: 325%;
+    bottom: 95%;
+}
+.tehnict{
+    position: absolute;
+   top: 5%;
+    left: 308%;
+}
